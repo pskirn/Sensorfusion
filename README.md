@@ -12,15 +12,19 @@ C++ implementation of a sensor fusion pipeline that combines IMU and camera data
 - CMake build system
 - JSON and CSV data parsing
 
+
 ## Project Structure
+
+```
 sensorfusion/
 ├── include/       # Header files
 ├── src/           # Source implementation
 ├── build/         # Build artifacts
 ├── task_imu.csv   # IMU sensor data
 ├── task_cam_data.json  # Camera observations
-└── CMakeLists.txt
-
+├── CMakeLists.txt
+└── README.md           # This file
+```
 
 ## Build & Run
 ```bash
