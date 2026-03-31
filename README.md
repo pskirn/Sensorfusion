@@ -13,6 +13,7 @@ C++ implementation of a sensor fusion pipeline that combines IMU and camera data
 - JSON and CSV data parsing
 
 ## Structure
+
 ├── include/       # Header files
 ├── src/           # Source implementation
 ├── build/         # Build artifacts
